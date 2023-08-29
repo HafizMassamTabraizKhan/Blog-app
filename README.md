@@ -15,7 +15,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -68,14 +67,6 @@ The **Blog app** represents an engaging blog platform developed with Ruby on Rai
 - **Read Blogs**
 - **Update Blogs**
 - **Delete Blogs**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- The project is under development. Demo coming soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
