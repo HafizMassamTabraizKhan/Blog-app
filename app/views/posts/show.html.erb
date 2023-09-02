@@ -1,8 +1,9 @@
-<section class="full_post_container">
-  <%= render partial: 'partials/post', locals: { post: @post, show_full_post: true } %>
-  <div class="full_comments_container">
-    <% @post.comments.each do |comment| %>
-      <%= render partial: 'partials/comment', locals: { comment: comment } %>
-    <% end %>
-  </div>
-</section>
+<%= stylesheet_link_tag 'user', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= stylesheet_link_tag 'post', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= render partial: 'post', locals: { post: @post } %> <br>
+<%= "no comments for this post" if @post.comments.empty?%>
+<div class="comments">
+<% @post.comments.each do |comment|%>
+        <%=render comment %>
+<% end %>
+</div>

@@ -1,14 +1,17 @@
-<section class="single_users_container">
-  <%= render partial: "partials/user", locals: {user: @user || "No users found"} %>
-
-  <div class="user_bio">
-    <h3>Bio</h3>
-    <p><%= @user.bio %></p>
-  </div>
-
-  <% @recent_posts.each do |post| %>
-    <%= render partial: 'partials/post', locals: { post: post, show_full_post: false } %>
-  <% end %>
-
-  <button type="button" class="btn"><%= link_to "See all Posts", user_posts_path(@user) %></button> 
-</section>
+<header>
+<%= stylesheet_link_tag 'user', media: 'all', 'data-turbolinks-track': 'reload' %>
+</header>
+<body>
+<%= render @user%>
+<div id="bio">
+ Bio: <%= @user.bio %>
+ </div>
+<br>
+<%='No posts for this user' if (@user.posts.empty?) %>
+<% @user.three_most_recent_posts.each do |post| %>
+  <%= render post %>
+<% end %>
+<div class="button-container">
+    <button><a href="<%= user_posts_path(@user) %>">See all posts</a></button>
+</div>
+</body>
