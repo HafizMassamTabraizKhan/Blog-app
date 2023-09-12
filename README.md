@@ -130,6 +130,12 @@ To run tests, run the following command:
 - Twitter: [@twitterhandle](https://twitter.com/MassamTabraiz)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/hafiz-massam-tabraiz-khan-167644255/)
 
+👤 **Falako Omotoyosi**
+
+- GitHub: [@toyman640](https://github.com/toyman640)
+- Twitter: [@\_toyman](https://twitter.com/_toyman)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/falako-omotoyosi/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
