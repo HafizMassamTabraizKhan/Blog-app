@@ -4,6 +4,10 @@
   margin-top: 2rem;
 }
 
+#post {
+  padding: 10px 10px;
+}
+
 #comments-likes {
   text-align: end;
   padding-right: 1rem;
